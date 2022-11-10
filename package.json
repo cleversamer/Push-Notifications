@@ -1,0 +1,36 @@
+{
+  "name": "push-notifications-onesignal",
+  "version": "1.0.0",
+  "description": "A push notifications API using Node.js and OneSignal service to push notifications to a mobile client",
+  "main": "server.js",
+  "keywords": [
+    "node",
+    "nodejs",
+    "node.js",
+    "push",
+    "push notification",
+    "push notifications",
+    "onesignal",
+    "one signal",
+    "cleversamer",
+    "samer alsaadawi",
+    "Samer A."
+  ],
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": {
+    "name": "Samer A.",
+    "website": "https://cleversamer.web.app"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "http-status": "^1.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
